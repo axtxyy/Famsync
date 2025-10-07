@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    width: 320px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  h1 {
+    color: #c065d2;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .form-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .form-box label {
+    display: block;
+    text-align: left;
+    color: #c065d2;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .form-box input[type="text"],
+  .form-box input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .create-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #76c7c0;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background-color: #5fb3ac;
+  }
+  
+  .or-text {
+    color: #9cc2c8;
+    margin: 15px 0;
+    font-size: 14px;
+  }
+  
+  .google-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #9cc2c8;
+  }
+  
+  .google-icon {
+    font-size: 16px;
+    color: #fff;
+    background-color: #db4437; /* Red color for Google */
+    border-radius: 50%;
+    padding: 3px 7px;
+    margin-left: 5px;
+  }
+  
